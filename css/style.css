@@ -4,9 +4,9 @@
 }
 
 body{
-	background-size:100%;
 	background: url('../static/bg.jpg') no-repeat;
-	background-color: #114690;
+	background-color: #040507;
+	background-size:100%;/*要放置在末尾*/
 	
 }
 
