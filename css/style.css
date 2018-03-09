@@ -1,5 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+
 body{
-	background: url('/static/bg.jpg') no-repeat;
-	background-color: #8dcfc3;
+	background-size:100%;
+	background: url('../static/bg.jpg') no-repeat;
+	background-color: #114690;
 	
+}
+
+.nav ul{
+	/*height: 50px;*/
+	/*width: 70%;*/
+	line-height: 50px;
+	text-align: center;
+	display: inline-block;
+	float:right;	
+}
+
+.nav ul li{
+	color: #fff;
+	list-style: none;
+	float:left;
+	/*width:8%;
+	min-width:80px;*/
+	
+}
+
+.nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 15px;
+	line-height:55px;
+	font-weight:600;
+	font-size:1.3em;
 }
