@@ -1,4 +1,5 @@
 body{
-	background: url('static/bg.jpg');
+	background: url('/static/bg.jpg') no-repeat;
+	background-color: #8dcfc3;
 	
 }
