@@ -1,0 +1,18 @@
+.content{
+	margin:10%;
+	float:left;
+	width:80%;
+	/*border-top: #fff 1px dashed;
+	border-left: #fff 1px dashed;*/
+}
+
+.entry{
+	padding-top:3%;
+	padding-bottom:3%;
+	border-bottom: #fff 1px dotted;
+	
+}
+
+.entry h1{
+	font-size: 2em;
+}

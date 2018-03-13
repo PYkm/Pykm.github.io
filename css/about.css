@@ -1,0 +1,19 @@
+.info h1{
+	font-size: 2em;
+}
+
+.info{
+	margin:10%;
+	margin-top:10%;
+	padding-bottom:3%;
+	width: 40%;
+	border-bottom: #fff 1px dotted;
+	float:left;
+}
+
+.photoes{
+	margin:10%;
+	margin-top:10%;
+	float:left;
+	
+}
