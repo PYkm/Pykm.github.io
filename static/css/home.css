@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background: #e3d4c7;
+}
+
+.mail{
+    box-shadow: 2px 2px 3px #aaaaaa;
+    border: 1px solid #BFBFBF;
+	margin:10%;
+	/* background: #f3e8f9;*/
+	background: beige;
+	padding:8% 5%;
+	font-family: Verdana, Arial, DFKai-SB, KaiTi;
+	/* background:url('../img/dashed.png') repeat-y; */
+}
+
+.mail a{
+	text-decoration: none;
+	color:#9E9E9E;
+}
+
+.mail a:hover, .mail a:visited{
+	color:#616161;
+}
+
+span.face{
+	/* color:#ffd504;*/
+}
+
+p.sayHi{
+	text-indent: 0 !important;
+}
+
+p{
+	 background:url('../img/dashed.png') repeat-y; 
+	text-indent: 2em;
+	font-size:1.5em;
+	/*border-bottom: 2px dashed #000;*/
+	line-height: 35px; 
+}
+
+p.sayBye{
+    text-align: right;
+}
