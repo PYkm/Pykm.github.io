@@ -7,10 +7,27 @@ body{
 	background: #e3d4c7;
 }
 
+@media screen and (max-width:700px){
 .mail{
+	width:80%;
+
+}
+
+}
+
+@media screen and (min-width:700px){
+.mail{
+	width:70%;
+	max-width: 700px;
+}
+
+}
+
+.mail{
+	margin:3% auto;	
     box-shadow: 2px 2px 3px #aaaaaa;
     border: 1px solid #BFBFBF;
-	margin:10%;
+	/*margin:10%;*/
 	/* background: #f3e8f9;*/
 	background: beige;
 	padding:8% 5%;
@@ -20,6 +37,7 @@ body{
 
 .mail a{
 	text-decoration: none;
+  	text-shadow: 0 1px 0 #fff,0 1px 0 #fff; 
 	color:#9E9E9E;
 }
 
@@ -31,6 +49,16 @@ span.face{
 	/* color:#ffd504;*/
 }
 
+p.sayHi a{
+	color: #a50000;
+	font-weight: 600;
+
+}
+
+p.sayHi a:hover,p.sayHi a:visited{
+	color: #880000;
+}
+
 p.sayHi{
 	text-indent: 0 !important;
 }
@@ -38,7 +66,7 @@ p.sayHi{
 p{
 	 background:url('../img/dashed.png') repeat-y; 
 	text-indent: 2em;
-	font-size:1.5em;
+	font-size: 1.2em;
 	/*border-bottom: 2px dashed #000;*/
 	line-height: 35px; 
 }
