@@ -1,0 +1,103 @@
+.tip{
+	/*background: #ffffee;
+	padding: 0 5% 5%;
+	color: #556655;*/
+	/*Updated on 8 May*/
+	background: #ffffff;
+	padding: 0 3%;
+	color: #0a0b0d;
+	font-size: 1.1em;
+	padding-bottom: .5%;
+}
+
+/*#peachBlossom{
+	width:80px;
+}*/
+
+@media screen and (max-width: 600px){
+#peachBlossom{
+	width:60px;
+}
+}
+
+
+@media screen and (min-width: 600px){
+#peachBlossom{
+	width:80px;
+}
+}
+
+/*Tip Page css*/
+.content_tip{
+    /*padding:5%;*/
+    /*Updated on 8 May*/
+    padding: 3%;
+
+    text-align: left;
+	/*background: #ffffee;*/
+	/*Updated on 10 May*/
+	background: #ffffff;
+	/*color: #556655;*/
+	/*Updated on 9 May*/
+	color: #0a0b0d;
+}
+
+.content_tip h2{
+	/*padding: 2% 0 2%;*/
+	/*Updated on 9 May*/
+	padding: 0 0 2%;
+	margin-bottom: 2%;
+	/*color: #4499cc;*/
+	/*Updated on 9 May*/
+	color: #445846;
+	font-size:	2em;
+	/*border-bottom: 10px double #668855;*/
+	/*Updated on 9 May*/
+	border-bottom: 10px double #2f3a32;
+
+}
+
+
+.content_tip p{
+	font-size:	1.1em;
+	text-indent: 2em;
+	margin-bottom: 2%;
+	line-height: 1.4em;
+}
+
+.content_tip a{
+	color:#99aaaa;	
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.content_tip a:hover{
+	color: #4499cc;	
+}
+
+.tip_ways{
+	/*list-style-position: inside;*/
+	margin: 0 0 0 2em;
+    margin-bottom: 2%;
+    line-height: 1.4em;
+	/*background: #ccccbb;*/
+	/*Updated on 9 May*/
+	background: #d5cba8;
+	/*padding:2% 7%;*/
+	/*Updated on 9 May*/
+	padding:2% 4%;
+	color: #000;
+}
+
+.tip_ways p{
+	text-indent: 0em;
+	word-wrap: break-word;
+}
+
+.tip_ways img{
+	/*width:200px;*/
+	width: 70%;
+	max-width: 200px;
+	border: 8px double #668855;
+	border-radius: 20px;
+}

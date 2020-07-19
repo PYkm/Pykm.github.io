@@ -1,0 +1,7 @@
+{% include header.html %}
+{% include nav.html %}
+
+{{ content }}
+
+{% include contact.html %}
+{% include footer.html %}

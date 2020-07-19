@@ -1,0 +1,56 @@
+@media screen and (max-width: 600px){
+
+	.pagination{
+		display:flex;
+	}
+
+	.pagination a{
+		margin: 1%;
+    	flex-grow: 0;
+	}
+	
+	.pagination span{
+	margin: 1%;
+    flex-grow: 0;
+	}
+}
+
+.pagination{
+	text-align: center;
+	/*padding: 5% 1% 0;*/
+	/*Updated on 8 May*/
+	margin: 3% 1% 0;
+	/*Removed on 8 May, and recoved on 9 May, and Keeped for reason*/
+
+	/*border-top: 3px solid #668855;*/
+	/*Removed on 8 May*/
+	/*font-weight:600;*/
+	/*Removed on 10 May*/
+	/*color:#668855;*/
+	/*Updated on 8 May*/
+	color:#424242;
+	justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pagination a{
+	text-decoration: none;
+	/*background: #ccccbb;*/
+	/*background: #99aaaa;*/
+	/*Removed on 8 May*/
+	background: #637f66;
+	padding: 0.8% 1%;
+	/*color:#000;*/
+	color:#fff;
+	/*border-radius: 8px;*/
+	/*Updated on 10 May*/
+	border-radius: 5px;
+	transition:all 0.7s;
+}
+
+.pagination a:hover{
+	/*background: #4499cc;*/
+	/*Removed on 8 May*/
+	background: #556655;
+}
