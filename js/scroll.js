@@ -10,5 +10,6 @@ $(".scroll").on("click", function(e)
 				scrollTop: $($.attr(this, 'href')).offset().top
 			}, 400);
 		}
+		toggleMenuList();
 		return false;
 	});
