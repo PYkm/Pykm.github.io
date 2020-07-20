@@ -264,9 +264,17 @@ ul {
 	font-size: 337.5%;
 }
 
-#homeWording {
 
-	margin: 300px 0;
+@media screen and (max-height: 400px) {
+	#homeWording {
+		margin: 220px 0;
+	}
+}
+
+@media screen and (min-height: 400px) {
+	#homeWording {
+		margin: 300px 0;
+	}
 }
 
 .synopsis {
