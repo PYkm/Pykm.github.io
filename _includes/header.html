@@ -9,8 +9,21 @@
 		<link rel="stylesheet" type="text/css" href="{{ site.url }}/{{ site.baseurl }}/css/style.css">
 		<link rel="stylesheet" type="text/css" href="{{ site.url }}/{{ site.baseurl }}/css/pagination.css">
 		<link rel="stylesheet" type="text/css" href="{{ site.url }}/{{ site.baseurl }}/css/fonts/style.css">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148161940-4"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-148161940-4');
+		</script>
+
 		<script type="text/javascript" src="{{ site.url }}/{{ site.baseurl }}/js/jquery-3.5.1.min.js"></script>
 		<script type="text/javascript" src="{{ site.url }}/{{ site.baseurl }}/js/scrollDownNav.js"></script>
-		<title>{{ page.title }}  | TA行动</title>
+		<title>{{ page.title }} | TA行动</title>
 	</head>
 	<body>
