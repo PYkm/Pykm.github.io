@@ -247,6 +247,8 @@ ul {
 	/* color: #556655; */
 	height: 100%;
 	/* Added on 3 July */
+	max-height: 768px;
+	/* Added on 20 July */
 }
 
 .content h1 {
@@ -265,19 +267,25 @@ ul {
 	/* Removed on 20 Jul, added mobile friendly */
 }
 
-#homeWording {
-	margin: 290px 0;
+
+/* #homeWording {
+	margin: 300px 0;
+} */
+
+.content h1 {
+	font-size: 337.5%;
 }
 
-@media screen and (max-width: 400px) {
-	.content h1 {
-		font-size: 307.5%;
+/* screen height < 415 */
+@media screen and (max-height: 415px) {
+	#homeWording {
+		margin: 200px 0;
 	}
 }
 
-@media screen and (min-width: 400px) {
-	.content h1 {
-		font-size: 337.5%;
+@media screen and (min-height: 415px) {
+	#homeWording {
+		margin: 300px 0;
 	}
 }
 
