@@ -261,19 +261,23 @@ ul {
 	/* border-bottom: 3px solid #2f3a32; */
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 337.5%;
+	/* font-size: 337.5%; */
+	/* Removed on 20 Jul, added mobile friendly */
 }
 
+#homeWording {
+	margin: 300px 0;
+}
 
-@media screen and (max-height: 400px) {
-	#homeWording {
-		margin: 220px 0;
+@media screen and (max-width: 400px) {
+	.content h1 {
+		font-size: 307.5%;
 	}
 }
 
-@media screen and (min-height: 400px) {
-	#homeWording {
-		margin: 300px 0;
+@media screen and (min-width: 400px) {
+	.content h1 {
+		font-size: 337.5%;
 	}
 }
 
