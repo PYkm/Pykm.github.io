@@ -2,9 +2,10 @@
 
 	var list195 = false;
 	MobileNav = document.getElementById('mobile_nav');
+	MenuBtn = document.getElementById('menu_button');	
 	NavList = document.getElementById('nav_list');
 	
-	MobileNav.onclick = toggleMenuList;
+	MenuBtn.onclick = toggleMenuList;
 
 	function toggleMenuList() {
 		list195 = !list195;

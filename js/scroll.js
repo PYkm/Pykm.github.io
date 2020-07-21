@@ -14,15 +14,33 @@ $(".scroll").on("click", function(e)
 	});
 
 
-$(".HomeScroll").on("click", function(e)
-	{
-		e.preventDefault();
-		/* console.log('clicked'); */
+$(".HomeScroll").on("click", function(e) {
+	e.preventDefault();
+	/* console.log('clicked'); */
 
-			$('html, body').animate({
-				scrollTop: 0
-			}, 400);
+	$('html, body').animate({
+		scrollTop: 0
+	}, 400);
 
-		toggleMenuList();
-		return false;
-	});
+	toggleMenuList();
+	return false;
+});
+
+
+$(".logo").on("click", function(e) {
+	e.preventDefault();
+	/* console.log('clicked'); */
+
+	$('html, body').animate({
+		scrollTop: 0
+	}, 400);
+	return false;
+});
+
+
+
+$(".toggleMenuBlog").on("click", function(e) {
+	//e.preventDefault();
+	toggleMenuList();
+	//return false;
+});
