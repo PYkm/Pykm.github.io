@@ -1,4 +1,3 @@
-
 $(".scroll").on("click", function(e)
 	/* $('[href*=#]').on('click', function(e) */
 	{
@@ -10,6 +9,20 @@ $(".scroll").on("click", function(e)
 				scrollTop: $($.attr(this, 'href')).offset().top
 			}, 400);
 		}
+		toggleMenuList();
+		return false;
+	});
+
+
+$(".HomeScroll").on("click", function(e)
+	{
+		e.preventDefault();
+		/* console.log('clicked'); */
+
+			$('html, body').animate({
+				scrollTop: 0
+			}, 400);
+
 		toggleMenuList();
 		return false;
 	});
